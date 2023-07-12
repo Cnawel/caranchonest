@@ -1,14 +1,13 @@
 ---
 title: "Gotta Find them All (subdomains)"
 author: "c4r4nch0"
+date: "2019-03-05"
 draft: false
 searchHidden: false
-tags: 
-    - "development"
-    - "go"
-    - "dns"
-    - "subdomains"
-categories: "infosec"
+tags: ["development"]
+categories: ["infosec"]
+ShowToc: false
+ShowBreadCrumbs: false
 cover:
     image: "<image path/url>"
     # can also paste direct link from external site
