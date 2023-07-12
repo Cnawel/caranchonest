@@ -1,8 +1,9 @@
 ---
 title: "Gotta Find them All (subdomains)"
+author: "c4r4nch0"
 draft: false
 ---
- ### Test PAge
+ ### Gotta Find them All (subdomains)
 Embark on a quest to explore the intricate world of subdomains and uncover their hidden secrets.
 Subdomains play a vital role in identifying vulnerabilities and misconfigurations within a target's infrastructure, making them a critical focus for bug hunting.
 
