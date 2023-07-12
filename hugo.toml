@@ -1,0 +1,4 @@
+baseURL = "https://cnawel.github.io/nidocarancho/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "PaperMod"
