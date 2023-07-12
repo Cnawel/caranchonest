@@ -2,6 +2,17 @@
 title: "Gotta Find them All (subdomains)"
 author: "c4r4nch0"
 draft: false
+searchHidden: false
+cover:
+    image: "<image path/url>"
+    # can also paste direct link from external site
+    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+    alt: "<alt text>"
+    caption: "<text>"
+    relative: false # To use relative path for cover image, used in hugo Page-bundles
+
+    tags: ["development", "go"]
+    categories: ["infosec"]
 ---
  ### Gotta Find them All (subdomains)
 Subdomains play a vital role in identifying vulnerabilities and misconfigurations within a target's infrastructure, making them a critical focus for bug hunting.

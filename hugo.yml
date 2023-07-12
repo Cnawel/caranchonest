@@ -3,9 +3,16 @@ languageCode : "en-us"
 title : "Nido Carancho"
 theme : "PaperMod"
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
 enableEmoji: true
 
 params:
+  defaultTheme: dark
   author: c4r4nch0
   homeInfoParams:
     Title: "Nido Carancho"
@@ -18,6 +25,10 @@ params:
       - Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
       -
 
+  cover:
+        responsiveImages: false
+        linkFullImages: false
+
   socialIcons:
     - name: Github
       url: "https://github.com/cnawel"
@@ -27,6 +38,8 @@ params:
 
   ShowReadingTime: true
   ShowShareButtons: true
+  ShowPostNavLinks: true
+
 
 menu:
   main:
