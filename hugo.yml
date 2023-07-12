@@ -1,36 +1,22 @@
 baseURL : "https://cnawel.github.io/nidocarancho/"
 languageCode : "en-us"
-title : "My New Hugo Site"
+title : "Nido Carancho"
 theme : "PaperMod"
 
 enableEmoji: true
 
 params:
-  author: Cnawel - c4r4nch0
+  author: c4r4nch0
   homeInfoParams:
     Title: "Nido Carancho"
     Content: >
       Welcome to **Nido Carancho** 🎉
 
-      - Where the realms of Cybersecurity and Nature Sciences intertwine 🙂
-
-
-      
+      - Where the realms of Cybersecurity and Nature Sciences intertwine 🙂      
       - 
-
-      - Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Brain Hacking, Neuroscience, and Plant Science
-
-
-      
-      - Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains
-
-
-      
-      - Nido Carancho is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
-
-
-      
-      - Join as we navigate the ever-evolving landscape of knowledge, sparking intellectual curiosity, and fostering a deeper understanding of the fascinating forces shaping our world
+      - Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Brain Hacking, Neuroscience, and Plant Science      
+      - Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
+      -
 
   socialIcons:
     - name: Github
