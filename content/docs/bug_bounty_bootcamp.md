@@ -16,8 +16,8 @@ ShowBreadCrumbs: false
 #     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---
  ### Book Review: Bug Bounty Bootcamp
-
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQud1wlz3Fl6brRiyQMKkg8XMhI2BE9J7SazqbG4DBOcbkVorYi34k1Y6axGErJj0L9LU&usqp=CAU
+ 
+<img src="/bug_bounty_bootcamp.png"/>
 
 Bug Bounty Bootcamp by Vickie Li, published by No Starch Press, is a fantastic guide for anyone looking to dive into bug bounty programs! 🕷️🎯💻 This book stands out in the security space with its focused approach and easy-to-follow content. It covers a wide range of vulnerabilities while specifically catering to bug bounties, making it a must-have for aspiring hunters. 📘🔒
 
