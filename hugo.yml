@@ -3,6 +3,17 @@ languageCode : "en-us"
 title : "Nido Carancho"
 theme : "PaperMod"
 
+defaultContentLanguage: es
+languages:
+  en:
+    contentDir: content/en
+    languageName: English
+    weight: 2
+  es:
+    contentDir: content/es
+    languageName: Español
+    weight: 1
+
 outputs:
     home:
         - HTML
