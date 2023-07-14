@@ -1,6 +1,7 @@
 ---
 title: "Hack your diet - brain health"
 author: "c4r4nch0"
+languages: "en"
 draft: false
 ---
  ### Hack your diet - brain health

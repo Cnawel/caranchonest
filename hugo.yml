@@ -6,12 +6,14 @@ theme : "PaperMod"
 defaultContentLanguage: es
 languages:
   en:
+    languageCode: en-US
     contentDir: content/en
     languageName: English
     weight: 2
   es:
+    languageCode: es-AR
     contentDir: content/es
-    languageName: Español
+    languageName: Spanish
     weight: 1
 
 outputs:
