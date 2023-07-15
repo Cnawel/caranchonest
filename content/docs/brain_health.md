@@ -2,6 +2,7 @@
 title: "Hack your diet - brain health"
 author: "c4r4nch0"
 languages: "en"
+date: "2022-04-05"
 draft: false
 ---
  ### Hack your diet - brain health

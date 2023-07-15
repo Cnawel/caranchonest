@@ -1,7 +1,7 @@
 ---
 title: "Gotta Find them All (subdomains)"
 author: "c4r4nch0"
-date: "2019-03-05"
+date: "2022-03-05"
 draft: false
 searchHidden: false
 tags: ["development"]
