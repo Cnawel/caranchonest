@@ -4,7 +4,7 @@ author: "c4r4nch0"
 date: "2023-04-07"
 draft: false
 searchHidden: false
-tags: ["nature", "brain"]
+tags: ["bug bounty", "infosec", "fuzz"]
 ShowToc: false
 ShowBreadCrumbs: false
 # cover:
