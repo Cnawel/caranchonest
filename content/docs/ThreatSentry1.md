@@ -99,8 +99,8 @@ Certainly! Here's an updated version using open-source tools for integration wit
 Please note that these code snippets are simplified examples, and you would need to install the respective libraries (`python-nmap`, `msfrpc`, `python-gvm`) to use them in your Flask application. Additionally, ensure you have the necessary credentials and proper access to use these open-source tools within your application.
 
 Now, for a practical example, lets do a script un python for testing local network and neighbors:
-{{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
 
+  ```python
 import nmap
 from msfrpc import MsfRpcClient
 from gvm.connections import TLSConnection
@@ -176,4 +176,4 @@ def execute_network_security_check(target_ip):
 
 # Execute the script with your localhost IP as the target
 execute_network_security_check('localhost')
-{{< / highlight >}}
+  ```
