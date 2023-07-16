@@ -15,8 +15,6 @@ ShowBreadCrumbs: false
 #     caption: "Bug Bounty Bootcamp"
 #     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---
-# ThreatSentry - An advanced threat modeling bot (part 3)
-
 ## 3. Integration with Penetration Testing Tools
 
 Certainly! Here's an updated version using open-source tools for integration with a Flask application:
