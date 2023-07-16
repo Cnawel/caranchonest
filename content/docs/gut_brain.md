@@ -4,7 +4,7 @@ author: "c4r4nch0"
 date: "2022-05-07"
 draft: false
 searchHidden: false
-tags: ["nature", "brain"]
+tags: ["health", "brain"]
 ShowToc: false
 ShowBreadCrumbs: false
 # cover:
