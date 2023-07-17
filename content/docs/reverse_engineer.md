@@ -20,8 +20,9 @@ To embark on your reverse engineering odyssey, you must equip yourself with the 
 1️⃣ Embrace the Basics: Begin by building a solid foundation in computer architecture, programming languages (such as C, C++, and assembly), and operating systems. Familiarize yourself with concepts like memory management, CPU architectures, and common software vulnerabilities.
 
 2️⃣ Understand Assembly Language: Dive deep into the realm of assembly language—the low-level instructions that serve as the building blocks of software and hardware. Learn to read, interpret, and analyze assembly code, as it will be your primary tool for reverse engineering.
-
+---
 3️⃣ Pick Your Targets: Determine the types of systems you want to reverse engineer, such as binary executables, firmware images, or hardware devices. Each target may require specialized knowledge and tools, so choose wisely and focus your efforts accordingly.
+[my link](https://reversetargeting.com/)
 
 4️⃣ Tools of the Trade: Familiarize yourself with a range of powerful reverse engineering tools. These include disassemblers (e.g., IDA Pro, Ghidra), debuggers (e.g., GDB, WinDbg), decompilers (e.g., RetDec, Snowman), and hex editors (e.g., HxD, Hex Fiend). Mastering these tools will empower you to unravel complex systems effectively.
 
