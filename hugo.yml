@@ -1,7 +1,7 @@
 baseURL : "https://cnawel.github.io/nidocarancho/"
 languageCode : "en-us"
 title : "Nido Carancho"
-theme : "Terminal"
+theme : "PaperMod"
 
 outputs:
     home:
