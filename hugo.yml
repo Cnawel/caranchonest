@@ -1,7 +1,20 @@
 baseURL : "https://cnawel.github.io/nidocarancho/"
 languageCode : "en-us"
+DefaultContentLanguage : "en-us"
 title : "Nido Carancho"
 theme : "PaperMod"
+
+languages:
+  en:
+    contentDir: content/english
+    title: "Nido Carancho"
+    languageName: English
+    weight: 1
+  es:
+    contentDir: content/spanish
+    title: "Nido Carancho"
+    languageName: Spanish
+    weight: 2
 
 outputs:
     home:
