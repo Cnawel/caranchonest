@@ -6,7 +6,7 @@ theme : "PaperMod"
 
 languages:
   en:
-    contentDir: content/english
+    contentDir: content/en
     languageName: English
     contentDir: content/en
     disabled: false
@@ -18,7 +18,7 @@ languages:
     title: "Nido Carancho"
     weight: 1
   es:
-    contentDir: content/spanish
+    contentDir: content/es
     title: "Nido Carancho"
     languageName: Spanish
     languageCode: es-AR
