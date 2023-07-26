@@ -24,8 +24,6 @@ Here's a roadmap to get you started on your quest:
 
 3️⃣ Pick Your Targets: Determine the types of systems you want to reverse engineer, such as binary executables, firmware images, or hardware devices. Each target may require specialized knowledge and tools, so choose wisely and focus your efforts accordingly.
 
-[my link](https://reversetargeting.com/)
-
 4️⃣ Tools of the Trade: Familiarize yourself with a range of powerful reverse engineering tools. These include disassemblers (e.g., IDA Pro, Ghidra), debuggers (e.g., GDB, WinDbg), decompilers (e.g., RetDec, Snowman), and hex editors (e.g., HxD, Hex Fiend). Mastering these tools will empower you to unravel complex systems effectively.
 
 5️⃣ Analyze and Dissect: Begin by examining open-source software and analyzing their source code. This practice will provide valuable insights into different programming techniques and architectures. Gradually transition to analyzing closed-source binaries, stepping into the realm of reverse engineering proper.
@@ -40,9 +38,13 @@ Here's a roadmap to get you started on your quest:
 
 🔟 Perseverance and Curiosity: Reverse engineering is a vast and ever-evolving field. Stay curious, embrace challenges, and never cease learning. The more you explore and experiment, the deeper your understanding and expertise will grow.
 
-Remember, mastering reverse engineering requires patience, dedication, and a thirst for knowledge. The field is vast, with limitless opportunities for exploration and discovery. So, arm yourself with the knowledge, tools, and passion needed to unravel the mysteries hidden within the digital realm. Happy reverse engineering, intrepid explorers! 🕵️‍♂️🔬
+Remember, mastering reverse engineering requires patience, dedication, and a thirst for knowledge.
 
-For advanced work in reverse engineering, consider using the following frameworks and libraries:
+This field is vast, with limitless opportunities for exploration and discovery. So, arm yourself with the knowledge, tools, and passion needed to unravel the mysteries hidden within the digital realm.
+
+Happy reverse engineering, intrepid explorers! 🕵️‍♂️🔬
+
+ For advanced work in reverse engineering, consider using the following frameworks and libraries:
 
 ### Radare2
 An advanced open-source framework for reverse engineering and binary analysis. It provides a command-line interface and powerful features for disassembling, debugging, and analyzing binary files.
