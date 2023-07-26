@@ -8,7 +8,8 @@ tags: ["brain", "study", "lifehack"]
 ShowToc: false
 ShowBreadCrumbs: false
 # cover:
-#     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQud1wlz3Fl6brRiyQMKkg8XMhI2BE9J7SazqbG4DBOcbkVorYi34k1Y6axGErJj0L9LU&usqp=CAU"
+#     image: "https://encrypted-tbn0.gstatic.com/images?
+#q=tbn:ANd9GcSQud1wlz3Fl6brRiyQMKkg8XMhI2BE9J7SazqbG4DBOcbkVorYi34k1Y6axGErJj0L9LU&#usqp=CAU"
 #     # can also paste direct link from external site
 #     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
 #     alt: "Bug Bounty Bootcamp"

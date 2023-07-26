@@ -76,10 +76,10 @@ markup:
 menu:
   main:
     - identifier: tags
-      name: Tags
+      name: C0NT3NT
       url: /tags/
-      weight: 20
-    - identifier: archives
-      name: Archives
-      url: /content/
-      weight: 30
+      weight: 10
+    # - identifier: archives
+    #   name: Archives
+    #   url: /content/
+    #   weight: 30
