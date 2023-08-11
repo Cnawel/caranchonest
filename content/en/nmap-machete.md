@@ -15,7 +15,7 @@ ShowBreadCrumbs: false
 #     caption: "Bug Bounty Bootcamp"
 #     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---
-## Nmap - all in
+Scripts varios para nmap
 
 Encontrar users con contraseñas por defecto o vacias
 ```bash
