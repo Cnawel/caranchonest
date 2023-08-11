@@ -15,6 +15,8 @@ languages:
     languageDirection: ltr
     
     params:
+      subtitle: ""
+    homeInfoParams:
       title: "Welcome to **Nido Carancho**"
       content: "> Where the realms of Cybersecurity and Natural Sciences intertwine 🙂\n\n
       Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Brain Hacking, Neuroscience, and Plant Science\n\n\n      
@@ -28,8 +30,8 @@ languages:
     
     disabled: false
     languageDirection: ltr
-
-    params:
+    
+    homeInfoParams:
       title: "Bienvenidxs a **Nido Carancho**"
       content: "> Dónde la Ciberseguridad y las Ciencias Naturales se encuentran 🙂\n\n
       Embarcate en un viaje a través de las profundidades de este Nicho, where we delve into the captivating worlds of Cybersecurity, Brain Hacking, Neuroscience, and Plant Science\n\n\n
