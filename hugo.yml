@@ -15,14 +15,31 @@ languages:
     languageName: English
     params:
       subtitle: Reference, Tutorials, and Explanations
-    title: "Nido Carancho"
+    homeInfoParams:
+      title: "Welcome to **Nido Carancho**"
+      content: ">
+      Where the realms of Cybersecurity and Natural Sciences intertwine 🙂
+
+      Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Brain Hacking, Neuroscience, and Plant Science      
+      
+      Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
+      "
     weight: 1
   es:
-    contentDir: content/es
-    title: "Nido Carancho"
     languageName: Spanish
     languageCode: es-AR
     weight: 2
+    contentDir: content/es
+    
+    homeInfoParams:
+      title: "Bienvenidxs a **Nido Carancho**"
+      content: ">
+      Dónde la Ciberseguridad y las Ciencias Naturales se encuentran 🙂
+
+      Embarcate en un viaje a través de las profundidades de este Nicho, where we delve into the captivating worlds of Cybersecurity, Brain Hacking, Neuroscience, and Plant Science      
+      
+      Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
+      "    
 
 outputs:
     home:
@@ -35,15 +52,7 @@ enableEmoji: true
 params:
   defaultTheme: dark
   author: c4r4nch0
-  homeInfoParams:
-    Title: "Welcome to **Nido Carancho**"
-    Content: ">
-      Where the realms of Cybersecurity and Natural Sciences intertwine 🙂
-
-      Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Brain Hacking, Neuroscience, and Plant Science      
-      
-      Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
-      "
+ 
       
   cover:
         responsiveImages: false
