@@ -9,14 +9,12 @@ languages:
     weight: 1
     languageName: English
     languageCode: en-US
-    contentDir: content/en    
+    contentDir: content/en
     
     disabled: false
     languageDirection: ltr
     
     params:
-      subtitle: Reference, Tutorials, and Explanations
-    homeInfoParams:
       title: "Welcome to **Nido Carancho**"
       content: "> Where the realms of Cybersecurity and Natural Sciences intertwine 🙂\n\n
       Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Brain Hacking, Neuroscience, and Plant Science\n\n\n      
@@ -26,9 +24,12 @@ languages:
     weight: 2
     languageName: Spanish
     languageCode: es-AR
-    contentDir: content/es    
+    contentDir: content/es
     
-    homeInfoParams:
+    disabled: false
+    languageDirection: ltr
+
+    params:
       title: "Bienvenidxs a **Nido Carancho**"
       content: "> Dónde la Ciberseguridad y las Ciencias Naturales se encuentran 🙂\n\n
       Embarcate en un viaje a través de las profundidades de este Nicho, where we delve into the captivating worlds of Cybersecurity, Brain Hacking, Neuroscience, and Plant Science\n\n\n
@@ -46,8 +47,7 @@ enableEmoji: true
 params:
   defaultTheme: dark
   author: c4r4nch0
- 
-      
+
   cover:
         responsiveImages: false
         linkFullImages: false
