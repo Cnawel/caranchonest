@@ -3,7 +3,7 @@ defaultContentLanguage : en
 defaultContentLanguageInSubdir: false
 
 title : "Nido Carancho"
-theme : "Terminal"
+theme : "PaperMod"
 
 languages:
   en:
