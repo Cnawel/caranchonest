@@ -23,6 +23,12 @@ languages:
       Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science.\n\n\n      
       Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
       "
+     menu:
+      main:
+        - identifier: tags
+          name: C0NT3NT
+          url: "/tags/"
+          weight: 10
   es:
     weight: 2
     languageName: Spanish
@@ -39,6 +45,12 @@ languages:
       Ya seas un en entusiasta de la tecnología, un amante de la naturaleza, o por simple curiosidad acerca del intrincado tapiz que une estos dominios, 
       **Nido Carancho** es tu puerta para descubrir los secretos que hay en la intersección de la innovación de vanguardia y las maravillas del mundo natural
       "
+    menu:
+      main:
+        - identifier: tags
+          name: C0NT3N1D0
+          url: "/tags/"
+          weight: 10
 
 outputs:
     home:
@@ -59,7 +71,7 @@ params:
   socialIcons:
     - name: Github
       url: "https://github.com/cnawel"
-    - name: Youtube
+    #- name: Youtube
     - name: Rss
       url: "index.xml"
 
@@ -83,12 +95,12 @@ markup:
     style: monokai
     tabWidth: 4
 
-menu:
-  main:
-    - identifier: tags
-      name: C0NT3NT
-      url: "/tags/"
-      weight: 10
+# menu:
+#   main:
+#     - identifier: tags
+#       name: C0NT3NT
+#       url: "/tags/"
+#       weight: 10
     # - identifier: archives
     #   name: Archives
     #   url: /content/
