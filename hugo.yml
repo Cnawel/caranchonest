@@ -5,6 +5,13 @@ defaultContentLanguageInSubdir: false
 title : "Nido Carancho"
 theme : "PaperMod"
 
+menu:
+  main:
+    - identifier: tags
+      name: C0NT3NT
+      url: "/tags/"
+      weight: 10
+      
 languages:
   en:
     weight: 1
@@ -15,20 +22,13 @@ languages:
     disabled: false
     languageDirection: ltr
     
-    params:
-      subtitle: ""
     homeInfoParams:
       title: "Welcome to **Nido Carancho**"
       content: "> Where the realms of Cybersecurity and Natural Sciences intertwine 🙂\n\n
       Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science.\n\n\n      
       Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
       "
-    menu:
-      main:
-        - identifier: tags
-          name: C0NT3NT
-          url: "/tags/"
-          weight: 10
+
   es:
     weight: 2
     languageName: Spanish
