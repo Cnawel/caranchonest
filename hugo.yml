@@ -1,9 +1,9 @@
 baseURL : "https://cnawel.github.io/nidocarancho/"
 defaultContentLanguage : en
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 
 title : "Nido Carancho"
-theme : "PaperMod"
+theme : "Terminal"
 
 languages:
   en:
@@ -24,11 +24,11 @@ languages:
       Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
       "
     menu:
-    main:
-      - identifier: tags
-        name: C0NT3NT
-        url: "/tags/"
-        weight: 10
+      main:
+        - identifier: tags
+          name: C0NT3NT
+          url: "/tags/"
+          weight: 10
   es:
     weight: 2
     languageName: Spanish
