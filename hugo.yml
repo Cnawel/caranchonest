@@ -33,7 +33,7 @@ languages:
     weight: 2
     languageName: Spanish
     languageCode: es-AR
-    contentDir: /content/
+    contentDir: content/es
     
     disabled: false
     languageDirection: ltr
@@ -49,7 +49,7 @@ languages:
       main:
         - identifier: tags
           name: C0NT3N1D0
-          url: "/tags/es"
+          url: ""
           weight: 10
 
 outputs:
