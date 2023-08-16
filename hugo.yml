@@ -1,5 +1,6 @@
 baseURL : "https://cnawel.github.io/nidocarancho/"
 defaultContentLanguage : en
+defaultContentLanguageInSubdir: true
 
 title : "Nido Carancho"
 theme : "PaperMod"
@@ -92,3 +93,12 @@ menu:
     #   name: Archives
     #   url: /content/
     #   weight: 30
+
+  module:
+    mounts: 
+      - source: content/en
+        target: content
+        lang: en
+      - source: content/es
+        target: content
+        lang: es
