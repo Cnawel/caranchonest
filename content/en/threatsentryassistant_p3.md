@@ -2,8 +2,8 @@
 title: "An advanced threat modeling bot (ThreatSentry) - p3"
 author: "c4r4nch0"
 date: "2023-06-15"
-draft: false
-searchHidden: false
+draft: True
+searchHidden: True
 tags: ["threat modeling", "infosec", "coding"]
 ShowToc: false
 ShowBreadCrumbs: false
