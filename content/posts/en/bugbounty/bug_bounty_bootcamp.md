@@ -1,5 +1,5 @@
 ---
-title: "Book Review: Bug Bounty Bootcamp"
+title: "📘Book Review: Bug Bounty Bootcamp🕷️🎯"
 author: "c4r4nch0"
 date: "2023-05-07"
 draft: false

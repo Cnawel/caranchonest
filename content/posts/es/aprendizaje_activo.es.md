@@ -2,7 +2,7 @@
 draft: false
 searchHidden: false
 
-title: "📚🔍 Técnicas de aprendizaje (activo, mezclado, y más) 🧠💡"
+title: "📚Técnicas de aprendizaje (activo, mezclado, y más)💡"
 author: "c4r4nch0"
 date: "2022-06-20"
 

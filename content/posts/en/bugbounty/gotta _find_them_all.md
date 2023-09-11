@@ -1,5 +1,5 @@
 ---
-title: "Gotta Find them All (subdomains)"
+title: "Gotta Find them All (subdomains)🕷️🎯"
 author: "c4r4nch0"
 date: "2022-03-05"
 draft: false

@@ -3,7 +3,7 @@
 draft: false
 searchHidden: false
 
-title: "Hack your diet - brain health"
+title: " Hack your diet - 🧠 brain health"
 author: "c4r4nch0"
 date: "2022-07-07"
 tags: ["diet", "brain"]

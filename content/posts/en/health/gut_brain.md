@@ -1,5 +1,5 @@
 ---
-title: "The Gut-Brain Connection: Unlocking the Secrets of Gut Health 🌱🧠"
+title: "🧠The Gut-Brain Connection: Unlocking the Secrets of Gut Health 🌱"
 author: "c4r4nch0"
 date: "2022-05-07"
 draft: false
