@@ -1,12 +1,12 @@
 # Nido Carancho Blog 🌐🧠🌿
 
 ## Table of Contents
-1. [Introduction](#introduction🚀)
-2. [About](#about🦅)
-3. [Topics Covered](#topics-covered📚)
-4. [Technical Insights](#technical-insights🔍🔬)
-5. [Contributing](#contributing🌟)
-6. [Contact](#contact📧)
+1. [Introduction](#introduction)
+2. [About](#about)
+3. [Topics Covered](#topics-covered)
+4. [Technical Insights](#technical-insights)
+5. [Contributing](#contributing)
+6. [Contact](#contact)
 
 ## Introduction🚀
 Welcome to Nido Carancho, where the realms of Cybersecurity and Natural Sciences intertwine! 🌐🧠🌿
