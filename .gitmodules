@@ -1,7 +1,6 @@
 [submodule "PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
-
-[submodule "Terminal"]
-	path = themes/Terminal
-	url = https://github.com/panr/hugo-theme-terminal.git
+[submodule "themes/themes/hugo-theme-cleanwhite"]
+	path = themes/themes/hugo-theme-cleanwhite
+	url = https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
