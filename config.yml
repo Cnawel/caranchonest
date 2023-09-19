@@ -41,7 +41,7 @@ languages:
                   url: https://discord.gg/ahpmTvhVmp
 
     es:
-      languageName: ":es:"
+      languageName: "es"
         languageAltTitle: Español
         weight: 2
         title: "Nido Carancho"
