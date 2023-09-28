@@ -95,7 +95,7 @@ params:
       ShowReadingTime: true
       ShowShareButtons: true
       ShowPostNavLinks: true
-      images: ["post-bg-unix-linux.jpg"]
+      images: ["/img/post-bg-unix-linux.jpg"]
 
     # label:
     #     text: "Home"
