@@ -19,7 +19,7 @@ minify:
 
 
 title : "Nido Carancho"
-theme : "PaperMod"
+theme : "hugo-PaperMod"
 
 menu:
   main:

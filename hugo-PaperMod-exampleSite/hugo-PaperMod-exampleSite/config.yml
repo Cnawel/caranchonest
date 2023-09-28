@@ -1,4 +1,4 @@
-baseURL : "https://cnawel.github.io/nidocarancho/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://github.com/Cnawel/caranchonest" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: PaperMod
 paginate: 5
 theme: hugo-PaperMod
@@ -35,40 +35,39 @@ languages:
                 - name: Tags
                   url: tags/
                   weight: 10
-                # - name: WiKi
-                #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-                # - name: Discord
-                #   url: https://discord.gg/ahpmTvhVmp
+                - name: WiKi
+                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+                - name: Discord
+                  url: https://discord.gg/ahpmTvhVmp
 
-    es:
-        languageName: "Spanish"
-        languageAltTitle: Español
+    fr:
+        languageName: ":fr:"
+        languageAltTitle: French
         weight: 2
         title: PaperModL2
         taxonomies:
-          category: EScategories
-          tag: EStags
-          series: ESseries
+          category: FRcategories
+          tag: FRtags
+          series: FRseries
         profileMode:
             enabled: true
-            title: "Nido Carancho"
-            #imageUrl: "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg"
-            # imageTitle: ProfileMode image
+            title: PaperMod
+            imageUrl: "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg"
+            imageTitle: ProfileMode image
             # imageWidth: 120
             # imageHeight: 120
-        #     subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-        #     buttons:
-        #         - name: Blog
-        #           url: posts
-        #         - name: Profile Mode
-        #           url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
-        # 
+            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+            buttons:
+                - name: Blog
+                  url: posts
+                - name: Profile Mode
+                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
         menu:
             main:
                 - name: Archive
                   url: archives/
                   weight: 5
-                - name: ESTags
+                - name: FRTags
                   url: frtags
                   weight: 10
                 - name: FRCategories
@@ -106,7 +105,7 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
+    author: c4ranch0
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
