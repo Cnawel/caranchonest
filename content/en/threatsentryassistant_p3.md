@@ -1,5 +1,5 @@
 ---
-title: "An advanced threat modeling bot (ThreatSentry) - p3"
+title: "An advanced threat modeling bot (ThreatSentry) p3"
 author: "c4r4nch0"
 date: "2023-06-15"
 draft: True

@@ -4,7 +4,7 @@ author: "c4r4nch0"
 date: "2022-06-20"
 draft: false
 searchHidden: false
-tags: ["brain", "study", "lifehack"]
+tags: ["brain", "study", "lifehack", "LANG:EN"]
 ShowToc: false
 ShowBreadCrumbs: false
 # cover:
