@@ -19,7 +19,7 @@ minify:
 
 
 title : "Carancho Nest"
-theme : hugo-PaperMod
+theme : PaperMod
 
 menu:
   main:
