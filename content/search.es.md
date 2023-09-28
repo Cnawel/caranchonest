@@ -1,4 +1,4 @@
 ---
-title: "SearchL2"
-layout: "search"
+title: "Buscar en el Blog"
+layout: "..."
 ---
