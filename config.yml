@@ -21,7 +21,7 @@ languages:
         languageName: "English"
         weight: 1
         taxonomies:
-          tag: C0NT3NT
+          tag: tags
         menu:
           main:
               # - name: Archive
@@ -48,7 +48,7 @@ languages:
         disabled: false
         # languageDirection: ltr
         taxonomies:
-          tag: C0NT3N1D0
+          tag: EStags
 
         menu:
             main:
