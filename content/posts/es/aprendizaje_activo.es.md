@@ -5,6 +5,7 @@ date: "2022-06-20"
 draft: false
 searchHidden: false
 tags: ["brain", "study", "lifehack"]
+estags: ["cerebro", "vida", "lifehack"]
 ShowToc: false
 ShowBreadCrumbs: false
 # cover:

@@ -3,7 +3,7 @@ baseURL : "https://cnawel.github.io/caranchonest/"
 title : "Carancho Nest"
 theme : PaperMod
 defaultContentLanguage : en
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 paginate: 5
 
 enableInlineShortcodes: true
@@ -19,19 +19,18 @@ minify:
     disableXML: true
     # minifyOutput: true
 
-menu:
-  main:
-    - identifier: tags
-      name: C0NT3NT
-      url: "/tags/"
-      weight: 10
+# menu:
+#   main:
+#     - identifier: tags
+#       name: C0NT3NT
+#       url: tags/
+#       weight: 10
 
 languages:
     en:
         languageName: "English"
         weight: 1
         languageCode: en-US
-        contentDir: content/en
         
         disabled: false
         languageDirection: ltr
@@ -44,8 +43,8 @@ languages:
               - name: Search
                 url: search/
                 weight: 10
-              - name: Tags
-                url: tags/
+              - name: C0NT3NT
+                url: tags
                 weight: 10
 
         homeInfoParams:
@@ -72,7 +71,7 @@ languages:
                   weight: 5
                 - identifier: estags
                   name: C0NT3N1D0
-                  url: "tags/"
+                  url: estags
                   weight: 10
             
         homeInfoParams:
