@@ -1,9 +1,10 @@
-@keyframes colorchange {
-    from {color: blueviolet;}
-    to {color: lightskyblue;}
+@keyframes color-change {
+    0% { color: blueviolet; }
+    50% { color: violet; }
+    100% { color: lightskyblue; }
   }
   
-  #menu a {
+#menu a {
     font-size: 25px;
     color: blueviolet;
 }
@@ -15,9 +16,7 @@
 
 #main a {
     font-size: 25px;
-    color: blueviolet;
-    animation-name: colorchange;
-    animation-duration: 10s;
+    animation-name: color-change 5s infinite;
 }
 
 #main a:hover {
