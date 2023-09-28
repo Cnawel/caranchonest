@@ -17,7 +17,7 @@ minify:
     # minifyOutput: true
 
 languages:
-    english:
+    en:
         languageName: "English"
         weight: 1
         taxonomies:
@@ -42,7 +42,7 @@ languages:
           Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
           "
 
-    español:
+    es:
         languageName: "Español"
         weight: 5
 
