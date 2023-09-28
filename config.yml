@@ -28,7 +28,7 @@ languages:
               #   url: archives
               #   weight: 5
               - name: C0NT3NT
-                url: tags
+                url: tags/
                 weight: 5
               - name: 🔍
                 url: search/
@@ -52,9 +52,8 @@ languages:
 
         menu:
             main:
-                - identifier: estags
-                  name: C0NT3N1D0
-                  url: estags
+                - name: C0NT3N1D0
+                  url: estags/
                   weight: 5
                 - name: 🔍
                   url: search/
