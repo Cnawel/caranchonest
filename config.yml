@@ -1,7 +1,9 @@
 baseURL : "https://cnawel.github.io/caranchonest/"
 
+title : "Carancho Nest"
+theme : PaperMod
 defaultContentLanguage : en
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 paginate: 5
 
 enableInlineShortcodes: true
@@ -16,10 +18,6 @@ pygmentsUseClasses: true
 minify:
     disableXML: true
     # minifyOutput: true
-
-
-title : "Carancho Nest"
-theme : PaperMod
 
 menu:
   main:
@@ -50,7 +48,7 @@ languages:
     languageName: Spanish
     languageCode: es-AR
     contentDir: content/
-    
+
     disabled: false
     languageDirection: ltr
     
