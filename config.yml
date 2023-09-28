@@ -49,7 +49,6 @@ languages:
     weight: 2
     languageName: Spanish
     languageCode: es-AR
-    contentDir: content/es
     
     disabled: false
     languageDirection: ltr
