@@ -16,7 +16,7 @@
 
 #main a {
     font-size: 25px;
-    animation-name: color-change 5s infinite;
+    color: blueviolet;
 }
 
 #main a:hover {
