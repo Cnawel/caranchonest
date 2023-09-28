@@ -5,7 +5,7 @@
 
 #menu a:hover {
     font-size: 25px;
-    color: white;
+    color: lightskyblue;
 }
 
 #main a {
@@ -13,6 +13,10 @@
     color: blueviolet;
 }
 
-.lang-switch { color: blueviolet;
+#menu .lang-switch a { color: lightskyblue;
+    font-size: 20px
+}
+
+#main .lang-switch a { color: lightskyblue;
     font-size: 20px
 }
