@@ -13,10 +13,11 @@
     color: blueviolet;
 }
 
-#menu .lang-switch a { color: lightskyblue;
-    font-size: 20px
+#main a:hover {
+    font-size: 25px;
+    color: lightskyblue;
 }
 
-#main .lang-switch a { color: lightskyblue;
+.lang-switch a { color: lightskyblue;
     font-size: 20px
 }
