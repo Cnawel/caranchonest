@@ -1,10 +1,7 @@
 baseURL : "https://cnawel.github.io/caranchonest/"
-
 title : "Carancho Nest"
-theme : PaperMod
-defaultContentLanguage : en
-defaultContentLanguageInSubdir: false
 paginate: 5
+theme : PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -19,22 +16,12 @@ minify:
     disableXML: true
     # minifyOutput: true
 
-# menu:
-#   main:
-#     - identifier: tags
-#       name: C0NT3NT
-#       url: tags/
-#       weight: 10
-
 languages:
     en:
         languageName: "English"
         weight: 1
-        languageCode: en-US
-        
-        disabled: false
-        languageDirection: ltr
-
+        taxonomies:
+          tag: tags
         menu:
           main:
               # - name: Archive
@@ -45,25 +32,24 @@ languages:
                 weight: 5
               - name: 🔍
                 url: search/
-                weight: 10
+                weight: 10       
 
         homeInfoParams:
-          title: "Welcome to **Carancho Nest**"
-          content: "> Where the realms of Cybersecurity and Natural Sciences intertwine 🙂\n\n
+          Title: "Welcome to **Carancho Nest**"
+          Content: "> Where the realms of Cybersecurity and Natural Sciences intertwine 🙂\n\n
           Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science.\n\n\n      
           Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
           "
 
     es:
-        weight: 2
-        languageName: Spanish
-        languageCode: es-AR
-        languageAltTitle: Español
-        
-        contentDir: content/es
+        languageName: "Español"
+        weight: 5
 
         disabled: false
-        languageDirection: ltr
+        # languageDirection: ltr
+        taxonomies:
+          tag: EStags
+
         menu:
             main:
                 - identifier: estags
@@ -96,11 +82,11 @@ params:
       env: production # to enable google analytics, opengraph, twitter-cards and schema.
 
       cover:
-            responsiveImages: false
+            responsiveImages: true
             linkFullImages: false
 
       socialIcons:
-        - name: Github
+        - name: Github Cnawel/c4r4nch0
           url: "https://github.com/cnawel"
         #- name: Youtube
         - name: Rss
@@ -109,39 +95,72 @@ params:
       ShowReadingTime: true
       ShowShareButtons: true
       ShowPostNavLinks: true
+      images: ["post-bg-unix-linux.jpg"]
+
+    # label:
+    #     text: "Home"
+    #     icon: icon.png
+    #     iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    assets:
+        disableHLJS: true
+    #     favicon: "<link / abs url>"
+    #     favicon16x16: "<link / abs url>"
+    #     favicon32x32: "<link / abs url>"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    #     keys: ["title", "permalink", "summary", "content"]
 
 markup:
-  highlight:
-    anchorLineNos: false
-    codeFences: true
-    guessSyntax: false
-    hl_Lines: ""
-    hl_inline: false
-    lineAnchors: ""
-    lineNoStart: 1
-    lineNos: true
-    lineNumbersInTable: true
-    noClasses: true
-    noHl: false
-    style: monokai
-    tabWidth: 4
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
 
-# menu:
-#   main:
-#     - identifier: tags
-#       name: C0NT3NT
-#       url: "/tags/"
-#       weight: 10
-    # - identifier: archives
-    #   name: Archives
-    #   url: /content/
-    #   weight: 30
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
 
-  # module:
-  #   mounts: 
-  #     - source: content/en
-  #       target: content
-  #       lang: en
-  #     - source: content/es
-  #       target: content
-  #       lang: es
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
