@@ -64,8 +64,8 @@ languages:
     menu:
       main:
         - identifier: tags
-          name: C0NT3N1D0
-          url: ""
+          name: C0NT3N1D0          
+          url: "/tags/"
           weight: 10
 
 outputs:
