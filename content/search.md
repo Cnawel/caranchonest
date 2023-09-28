@@ -1,4 +1,4 @@
 ---
-title: "Search in Blog"
-layout: "..."
+title: "Search in Carancho Nest"
+layout: "search"
 ---
