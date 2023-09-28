@@ -77,24 +77,24 @@ outputs:
 enableEmoji: true
 
 params:
-  defaultTheme: auto
-  author: c4r4nch0
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+      defaultTheme: auto
+      author: c4r4nch0
+      env: production # to enable google analytics, opengraph, twitter-cards and schema.
 
-  cover:
-        responsiveImages: false
-        linkFullImages: false
+      cover:
+            responsiveImages: false
+            linkFullImages: false
 
-  socialIcons:
-    - name: Github
-      url: "https://github.com/cnawel"
-    #- name: Youtube
-    - name: Rss
-      url: "index.xml"
+      socialIcons:
+        - name: Github
+          url: "https://github.com/cnawel"
+        #- name: Youtube
+        - name: Rss
+          url: "index.xml"
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
+      ShowReadingTime: true
+      ShowShareButtons: true
+      ShowPostNavLinks: true
 
 markup:
   highlight:
