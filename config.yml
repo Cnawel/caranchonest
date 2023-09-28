@@ -60,12 +60,6 @@ languages:
       Ya seas un en entusiasta de la tecnología, un amante de la naturaleza, o por simple curiosidad acerca del intrincado tapiz que une estos dominios, 
       **Carancho Nest** es tu puerta para descubrir los secretos que hay en la intersección de la innovación de vanguardia y las maravillas del mundo natural
       "
-    menu:
-      main:
-        - identifier: tags
-          name: C0NT3N1D0          
-          url: "/tags/"
-          weight: 10
 
 outputs:
     home:
