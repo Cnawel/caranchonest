@@ -1,5 +1,5 @@
 ---
-title: "📚🔍 Active Learning and Other Useful Study Techniques 🧠💡"
+title: "📚 Active Learning and Other Useful Study Techniques 💡"
 author: "c4r4nch0"
 date: "2022-06-20"
 draft: false
