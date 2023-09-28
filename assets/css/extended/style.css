@@ -1,4 +1,9 @@
-#menu a {
+@keyframes colorchange {
+    from {color: blueviolet;}
+    to {color: lightskyblue;}
+  }
+  
+  #menu a {
     font-size: 25px;
     color: blueviolet;
 }
@@ -11,13 +16,11 @@
 #main a {
     font-size: 25px;
     color: blueviolet;
+    animation-name: colorchange;
+    animation-duration: 10s;
 }
 
 #main a:hover {
     font-size: 25px;
     color: lightskyblue;
-}
-
-.lang-switch a { color: lightskyblue;
-    font-size: 20px
 }
