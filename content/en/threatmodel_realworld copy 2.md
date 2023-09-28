@@ -1,11 +1,10 @@
 ---
-title: "🛡️Threat Modeling: Why It's Essential?🚨"
-description: "Enhancing Security Through Real-World Examples"
+title: "Threat Modeling: Real-World Examples "
 author: "c4r4nch0"
-date: "2023-05-15"
-draft: false
-searchHidden: false
-tags: ["threat modeling", "infosec"]
+date: "2023-07-15"
+draft: True
+searchHidden: True
+tags: ["threat modeling", "infosec", "coding"]
 ShowToc: false
 ShowBreadCrumbs: false
 # cover:
@@ -16,24 +15,26 @@ ShowBreadCrumbs: false
 #     caption: "Bug Bounty Bootcamp"
 #     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---
+Welcome, cybersecurity enthusiasts, to an exciting exploration of advanced threat modeling—the practice of systematically identifying and mitigating potential security risks in complex systems. In this blog post, we delve into the importance of advanced threat modeling, showcasing real-world examples that highlight its significance in safeguarding digital environments. So, fasten your seatbelts as we embark on this cybersecurity adventure!
 
-In this blog post, we delve into the importance of advanced threat modeling, showcasing real-world examples that highlight its significance in safeguarding digital environments. So, fasten your seatbelts as we embark on this cybersecurity adventure!
+Official OWASP Threat Modeling Process
+https://owasp.org/www-community/Threat_Modeling_Process
 
-### Why Advanced Threat Modeling Matters
+Why Advanced Threat Modeling Matters
 
 As digital landscapes become increasingly intricate, organizations must proactively identify and address security vulnerabilities before they are exploited. Advanced threat modeling empowers security teams to understand the evolving threat landscape, anticipate potential attacks, and fortify their systems accordingly. By systematically analyzing system components, architectural design, and potential threat vectors, organizations can design resilient systems and allocate resources effectively to mitigate risks.
 
-### Real-World Examples: Uncovering the Impact of Advanced Threat Modeling
+Real-World Examples: Uncovering the Impact of Advanced Threat Modeling
 
 To illustrate the impact of advanced threat modeling, let's consider a real-world scenario involving a fictitious e-commerce platform. By applying advanced threat modeling techniques, the organization identified the following potential risks:
 
-🎯 *** Injection Attacks: Leveraging tools like OWASP Threat Dragon, the team uncovered the possibility of SQL injection and cross-site scripting (XSS) vulnerabilities. By modeling and analyzing the application's attack surface, they implemented robust input validation and secure coding practices to thwart potential injection attacks. https://owasp.org/www-project-threat-dragon/
+🎯 Injection Attacks: Leveraging tools like OWASP Threat Dragon, the team uncovered the possibility of SQL injection and cross-site scripting (XSS) vulnerabilities. By modeling and analyzing the application's attack surface, they implemented robust input validation and secure coding practices to thwart potential injection attacks.
 
-🎯 Server Misconfiguration: Utilizing Microsoft's STRIDE framework, the team discovered potential weaknesses in server configurations that could expose sensitive data or allow unauthorized access. They remediated these risks by implementing strong access controls, regular system audits, and secure configurations based on industry best practices. https://www.microsoft.com/en-us/security/blog/2007/09/11/stride-chart/
+🎯 Server Misconfiguration: Utilizing Microsoft's STRIDE framework, the team discovered potential weaknesses in server configurations that could expose sensitive data or allow unauthorized access. They remediated these risks by implementing strong access controls, regular system audits, and secure configurations based on industry best practices.
 
-🎯 Distributed Denial of Service (DDoS) Attacks: With the help of threat modeling tools like Microsoft Threat Modeling Tool, the team identified the risk of DDoS attacks overwhelming their network infrastructure. They implemented measures such as traffic analysis, rate limiting, and scalable infrastructure to ensure system availability under attack scenarios. https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool
+🎯 Distributed Denial of Service (DDoS) Attacks: With the help of threat modeling tools like Microsoft Threat Modeling Tool, the team identified the risk of DDoS attacks overwhelming their network infrastructure. They implemented measures such as traffic analysis, rate limiting, and scalable infrastructure to ensure system availability under attack scenarios.
 
-### Building a Real-World Threat Modeling Lab
+Building a Real-World Threat Modeling Lab
 
 To enhance your skills in advanced threat modeling, it's crucial to practice in a real-world lab environment. Here's an example architecture for a simulated threat modeling lab using Docker and Grafana:
 
@@ -47,7 +48,7 @@ To enhance your skills in advanced threat modeling, it's crucial to practice in 
 
 By leveraging this lab architecture, you can practice advanced threat modeling techniques, experiment with different attack vectors, and validate the effectiveness of mitigation strategies in a controlled environment.
 
-### Frameworks for Advanced Threat Modeling
+Frameworks for Advanced Threat Modeling
 
 When engaging in advanced threat modeling, consider utilizing the following frameworks:
 

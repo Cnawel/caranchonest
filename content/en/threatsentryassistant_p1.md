@@ -1,5 +1,5 @@
 ---
-title: "An advanced threat modeling bot (ThreatSentry)"
+title: "An advanced threat ACTOR bot (ThreatSentry) P1"
 author: "c4r4nch0"
 date: "2023-06-15"
 draft: false
@@ -17,7 +17,7 @@ ShowBreadCrumbs: false
 ---
 ## An advanced threat modeling bot (lets name it ThreatSentry)
 
-This post will be about Architecting an advanced threat modeling bot with Flask for automated penetration testing of a local network (yey!).
+This post will be about Architecting an advanced threat ACTOR bot with Flask for automated penetration testing of a local network (... try but do, do no not dont try).
 
 # Lets make a step by step:
 
