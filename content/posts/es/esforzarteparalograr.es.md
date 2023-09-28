@@ -4,7 +4,7 @@ author: "c4r4nch0"
 date: "2023-07-15"
 draft: False
 searchHidden: False
-tags: ["lifehacks", "datita", "ESPAÑOL"]
+es-tags: ["lifehacks", "datita"]
 ShowToc: false
 ShowBreadCrumbs: false
 # cover:

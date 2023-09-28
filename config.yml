@@ -21,14 +21,14 @@ languages:
         languageName: "English"
         weight: 1
         taxonomies:
-          tag: C0NT3NT
+          tag: tags
 
         menu:
           main:
               # - name: Archive
               #   url: archives
               #   weight: 5
-              - name: 
+              - name: C0NT3NT
                 url: tags/
                 weight: 5
               - name: 🔍
@@ -49,12 +49,12 @@ languages:
         disabled: false
         # languageDirection: ltr
         taxonomies:
-          tag: C0NT3N1D0
+          tag: es-tags
 
         menu:
             main:
                 - name: C0NT3N1D0
-                  url: estags/
+                  url: es-tags/
                   weight: 5
                 - name: 🔍
                   url: search/
