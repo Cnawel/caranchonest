@@ -31,6 +31,7 @@ languages:
         languageName: "English"
         weight: 1
         languageCode: en-US
+        contentDir: content/en
         
         disabled: false
         languageDirection: ltr
@@ -59,6 +60,8 @@ languages:
         languageName: Spanish
         languageCode: es-AR
         languageAltTitle: Español
+        
+        contentDir: content/es
 
         disabled: false
         languageDirection: ltr
@@ -67,10 +70,11 @@ languages:
                 - name: Archive
                   url: archives/
                   weight: 5
-                - name: ESTags
-                  url: estags
+                - identifier: estags
+                  name: C0NT3N1D0
+                  url: "tags/"
                   weight: 10
-        
+            
         homeInfoParams:
           title: "Bienvenidxs a **Carancho Nest**"
           content: "> Dónde la Ciberseguridad y las Ciencias Naturales se encuentran 🙂\n\n
