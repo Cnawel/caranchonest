@@ -33,7 +33,7 @@ languages:
     weight: 1
     languageName: "English"
     languageCode: en-US
-    contentDir: content/en
+    contentDir: content/
     
     disabled: false
     languageDirection: ltr
@@ -49,6 +49,7 @@ languages:
     weight: 2
     languageName: Spanish
     languageCode: es-AR
+    contentDir: content/
     
     disabled: false
     languageDirection: ltr
