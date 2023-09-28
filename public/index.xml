@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://cnawel.github.io/nidocarancho/</link>
+    <link>https://cnawel.github.io/caranchonest/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jul 2023 22:33:30 -0300</lastBuildDate><atom:link href="https://cnawel.github.io/nidocarancho/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jul 2023 22:33:30 -0300</lastBuildDate><atom:link href="https://cnawel.github.io/caranchonest/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://cnawel.github.io/nidocarancho/docs/test/</link>
+      <link>https://cnawel.github.io/caranchonest/docs/test/</link>
       <pubDate>Tue, 11 Jul 2023 22:33:30 -0300</pubDate>
       
-      <guid>https://cnawel.github.io/nidocarancho/docs/test/</guid>
+      <guid>https://cnawel.github.io/caranchonest/docs/test/</guid>
       <description>Test PAge This is a test Page</description>
     </item>
     

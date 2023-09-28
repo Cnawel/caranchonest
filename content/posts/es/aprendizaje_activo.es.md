@@ -4,7 +4,6 @@ author: "c4r4nch0"
 date: "2022-06-20"
 draft: false
 searchHidden: false
-tags: ["brain", "study", "lifehack"]
 es-tags: ["cerebro", "vida", "lifehack"]
 ShowToc: false
 ShowBreadCrumbs: false
