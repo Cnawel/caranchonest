@@ -28,7 +28,7 @@ languages:
               # - name: Archive
               #   url: archives
               #   weight: 5
-              - name: C0NT3NT
+              - name: "C0NT3NT"
                 url: tags/
                 weight: 5
               - name: 🔍
@@ -53,7 +53,7 @@ languages:
 
         menu:
             main:
-                - name: C0NT3N1D0
+                - name: "C0NT3N1D0"
                   url: es-tags/
                   weight: 5
                 - name: 🔍
