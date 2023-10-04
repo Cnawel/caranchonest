@@ -15,8 +15,6 @@ ShowBreadCrumbs: false
 #     caption: "Bug Bounty Bootcamp"
 #     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---
----
-
 # PASTA: Unveiling the Art of Attack Simulation and Threat Analysis 🍝
 
 ## Introduction
