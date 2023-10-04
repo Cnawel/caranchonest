@@ -1,5 +1,5 @@
 ---
-title: "Hack Your Diet for a Healthy Brain 🧠🍏"
+title: "The Symphony of Neural Networks: A Deep Dive into the Brain's Complexity 🌌🎻"
 author: "c4r4nch0"
 date: "2022-07-07"
 draft: false
@@ -15,9 +15,7 @@ ShowBreadCrumbs: false
 #     caption: "Bug Bounty Bootcamp"
 #     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---
-![Example image](/static/lafamilia_edit.jpg)
-
-# The Symphony of Neural Networks: A Deep Dive into the Brain's Complexity 🌌🎻
+![Example image](/caranchonest/static/lafamilia_edit.jpg)
 
 ## Introduction: The Maestro of Existence 🎼🌟
 
