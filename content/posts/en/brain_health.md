@@ -15,6 +15,7 @@ ShowBreadCrumbs: false
 #     caption: "Bug Bounty Bootcamp"
 #     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---
+![Example image](/static/lafamilia_edit.jpg)
 
 # The Symphony of Neural Networks: A Deep Dive into the Brain's Complexity 🌌🎻
 
