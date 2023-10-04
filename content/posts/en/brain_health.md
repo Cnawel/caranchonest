@@ -15,7 +15,7 @@ ShowBreadCrumbs: false
 #     caption: "Bug Bounty Bootcamp"
 #     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---
-![Example image](/caranchonest/static/lafamilia_edit.jpg)
+![Brain Health](https://github.com/Cnawel/caranchonest/blob/main/static/lafamilia_edit.jpg)
 
 ## Introduction: The Maestro of Existence 🎼🌟
 
