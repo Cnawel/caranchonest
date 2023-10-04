@@ -18,7 +18,7 @@ ShowPostNavLinks: true
 #     caption: "Bug Bounty Bootcamp"
 #     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---
-![Grow Brain Health](/lafamilia_edit.jpg)
+![Grow Brain Health](/brain_health1.jpg)
 
 ## Introduction: The Maestro of Existence 🎼🌟
 
