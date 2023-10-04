@@ -5,8 +5,11 @@ date: "2022-07-07"
 draft: false
 searchHidden: false
 tags: ["diet", "brain"]
-ShowToc: false
-ShowBreadCrumbs: false
+ShowToc: true
+ShowBreadCrumbs: true
+TocOpen: true
+ShowPostNavLinks: true
+
 # cover:
 #     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQud1wlz3Fl6brRiyQMKkg8XMhI2BE9J7SazqbG4DBOcbkVorYi34k1Y6axGErJj0L9LU&usqp=CAU"
 #     # can also paste direct link from external site
@@ -15,7 +18,7 @@ ShowBreadCrumbs: false
 #     caption: "Bug Bounty Bootcamp"
 #     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---
-![Brain Health](https://github.com/Cnawel/caranchonest/blob/main/static/lafamilia_edit.jpg)
+![Grow Brain Health](/lafamilia_edit.jpg)
 
 ## Introduction: The Maestro of Existence 🎼🌟
 
