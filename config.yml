@@ -1,9 +1,7 @@
-theme: "PaperMod"
-
 baseURL : "https://cnawel.github.io/caranchonest/"
-
-defaultContentLanguageInSubdir: false
+title: "Carancho Nest"
 paginate: 5
+theme: hugo-PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -12,38 +10,34 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
+
 googleAnalytics: G-KMQDQV3MYZ
 
 minify:
     disableXML: true
     # minifyOutput: true
 
-menu:
-  main:
-    - identifier: tags
-      name: C0NT3NT
-      url: "/tags/"
-      weight: 10
-
 languages:
-  en:
-      weight: 1
-      languageName: English
-      contentDir: content/en
-      languageDirection: ltr
-      title: "Welcome to **Carancho Nest**"
-      content: "> Where the realms of Cybersecurity and Natural Sciences intertwine 🙂\n\n
-      Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science.\n\n\n      
-      Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
-      "
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+        tag: tags
+        
+        title: "Welcome to **Carancho Nest**"
+        content: "> Where the realms of Cybersecurity and Natural Sciences intertwine 🙂\n\n
+        Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science.\n\n\n      
+        Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
+        "
+        menu:
+            main:
+              - name: C0NT3NT
+                url: tags/
+                weight: 10
 
   es:
     weight: 2
-    languageName: Español
-    contentDir: content/es
-    
-    disabled: false
-    languageDirection: ltr
+    languageName: "Español"
   
     title: "Bienvenidxs a **Carancho Nest**"
     content: "> Dónde la Ciberseguridad y las Ciencias Naturales se encuentran 🙂\n\n
@@ -64,12 +58,11 @@ outputs:
         - RSS
         - JSON # is necessary
 
-enableEmoji: true
-
 params:
-      defaultTheme: auto
-      author: c4r4nch0
       env: production # to enable google analytics, opengraph, twitter-cards and schema.
+      author: c4r4nch0
+
+      defaultTheme: auto
 
       cover:
             responsiveImages: false
@@ -87,17 +80,37 @@ params:
       ShowPostNavLinks: true
 
 markup:
-  highlight:
-    anchorLineNos: false
-    codeFences: true
-    guessSyntax: false
-    hl_Lines: ""
-    hl_inline: false
-    lineAnchors: ""
-    lineNoStart: 1
-    lineNos: true
-    lineNumbersInTable: true
-    noClasses: true
-    noHl: false
-    style: monokai
-    tabWidth: 4
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
