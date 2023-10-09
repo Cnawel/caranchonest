@@ -12,27 +12,27 @@ pygmentsUseClasses: true
 
 googleAnalytics: G-KMQDQV3MYZ
 
-minify: 
+minify:
     disableXML: true
     # minifyOutput: true
 
-languages: 
-    en: 
+languages:
+    en:
         languageName: "English"
         weight: 1
-        taxonomies: 
+        taxonomies:
           tag: tags
-
-        menu: 
-            main: 
+        
+        menu:
+            main:
               - name: C0NT3NT
                 url: tags/
                 weight: 10
 
-    es: 
+    es:
       weight: 2
       languageName: "Español"
-      taxonomies: 
+      taxonomies:
         tag: EStags
 
       title: "Carancho Nest"
@@ -40,28 +40,28 @@ languages:
           - Where the realms of Cybersecurity and Natural Sciences intertwine 🙂
           - Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science
           - Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
-
-      socialIcons: 
+      
+      socialIcons:
           - name: github
             url: "https://github.com/Cnawel"
           - name: "My web"
             url: "https://cnawel.github.io/caranchonest/"
           - name: Rss
             url: "index.xml"
-      menu: 
-        main: 
+      menu:
+        main:
           - identifier: tags
             name: C0NT3N1D0
             url: ""
             weight: 10
 
-outputs: 
-    home: 
+outputs:
+    home:
         - HTML
         - RSS
         - JSON # is necessary
 
-params: 
+params:
       env: production # to enable google analytics, opengraph, twitter-cards and schema.
       author: c4r4nch0
 
@@ -83,18 +83,18 @@ params:
       # comments: false
       images: ["papermod-cover.png"]
 
-      cover: 
+      cover:
             responsiveImages: false
             linkFullImages: false
 
-      homeInfoParams: 
+      homeInfoParams:
         Title: "Carancho Nest"
         Content: >
             - Where the realms of Cybersecurity and Natural Sciences intertwine 🙂
             - Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science
             - Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
-
-        socialIcons: 
+      
+        socialIcons:
             - name: github
               url: "https://github.com/Cnawel"
             - name: "My web"
@@ -102,13 +102,13 @@ params:
             - name: Rss
               url: "index.xml"
 
+      
 
-
-markup: 
-    goldmark: 
-        renderer: 
+markup:
+    goldmark:
+        renderer:
             unsafe: true
-    highlight: 
+    highlight:
         noClasses: false
         # anchorLineNos: true
         # codeFences: true
@@ -116,26 +116,26 @@ markup:
         # lineNos: true
         # style: monokai
 
-privacy: 
-    vimeo: 
+privacy:
+    vimeo:
         disabled: false
         simple: true
 
-    twitter: 
+    twitter:
         disabled: false
         enableDNT: true
         simple: true
 
-    instagram: 
+    instagram:
         disabled: false
         simple: true
 
-    youtube: 
+    youtube:
         disabled: false
         privacyEnhanced: true
 
-services: 
-    instagram: 
+services:
+    instagram:
         disableInlineCSS: true
-    twitter: 
+    twitter:
         disableInlineCSS: true
