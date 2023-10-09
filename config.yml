@@ -63,15 +63,39 @@ params:
       author: c4r4nch0
 
       defaultTheme: auto
+      # disableThemeToggle: true
+      ShowShareButtons: true
+      ShowReadingTime: true
+      # disableSpecial1stPost: true
+      displayFullLangName: true
+      ShowPostNavLinks: true
+      ShowBreadCrumbs: true
+      ShowCodeCopyButtons: true
+      ShowRssButtonInSectionTermList: true
+      ShowToc: true
+      # comments: false
+      images: ["papermod-cover.png"]
 
       cover:
             responsiveImages: false
             linkFullImages: false
 
-      socialIcons:
-        - name: Github
-          url: "https://github.com/cnawel"
-        #- name: Youtube
+      homeInfoParams:
+        Title: "Carancho Nest"
+        Content: >
+            Welcome to Carancho Nest
+
+            - **Carancho Nest** is where Nature Sciences and Cybersecurity intertwin.
+
+            - Do give a 🌟 on Github !
+
+            - Contact me if you have any proyects in your mind.
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/Cnawel"
+        - name: "My web"
+          url: "https://cnawel.github.io/caranchonest/"
         - name: Rss
           url: "index.xml"
 
