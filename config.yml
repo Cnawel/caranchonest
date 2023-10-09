@@ -1,7 +1,7 @@
 baseURL : "https://cnawel.github.io/caranchonest/"
 title: "Carancho Nest"
 paginate: 5
-theme: hugo-PaperMod
+theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
