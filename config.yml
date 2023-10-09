@@ -65,15 +65,15 @@ languages:
           - name: Rss
             url: "index.xml"
 
-        menu: 
-          main: 
-            - name: C0NT3N1D0
-              url: EStags
-              weight: 5
-            - name: Buscar
-              url: search/
-              weight: 10
-              placeholder: "Buscar en el Nido"
+      menu: 
+        main: 
+          - name: C0NT3N1D0
+            url: EStags
+            weight: 5
+          - name: Buscar
+            url: search/
+            weight: 10
+            placeholder: "Buscar en el Nido"
 
 outputs: 
     home: 
