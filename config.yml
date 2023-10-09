@@ -1,6 +1,5 @@
 baseURL : "https://cnawel.github.io/caranchonest/"
 
-defaultContentLanguage : en
 defaultContentLanguageInSubdir: false
 paginate: 5
 
@@ -30,12 +29,9 @@ menu:
 
 languages:
   en:
-    params:
       weight: 1
-      languageCode: en-US
+      languageName: English
       contentDir: content/en
-      
-      disabled: false
       languageDirection: ltr
       
       homeInfoParams:
@@ -46,9 +42,8 @@ languages:
         "
 
   es:
-  params:
     weight: 2
-    languageCode: es-AR
+    languageName: Español
     contentDir: content/es
     
     disabled: false
