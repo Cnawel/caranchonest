@@ -1,7 +1,8 @@
 baseURL : "https://cnawel.github.io/caranchonest/"
-title : "Carancho Nest"
+
+defaultContentLanguage : en
+defaultContentLanguageInSubdir: false
 paginate: 5
-theme : PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -10,63 +11,62 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-googleAnalytics: G-KMQDQV3MYZ
+# googleAnalytics: UA-123-45
 
 minify:
     disableXML: true
     # minifyOutput: true
 
+
+title : "Nido Carancho"
+theme : "hugo-PaperMod"
+
+menu:
+  main:
+    - identifier: tags
+      name: C0NT3NT
+      url: "/tags/"
+      weight: 10
+
 languages:
-    en:
-        languageName: "English"
-        weight: 1
-        taxonomies:
-          tag: tags
+  en:
+    weight: 1
+    languageName: "English"
+    languageCode: en-US
+    contentDir: content/en
+    
+    disabled: false
+    languageDirection: ltr
+    
+    homeInfoParams:
+      title: "Welcome to **Carancho Nest**"
+      content: "> Where the realms of Cybersecurity and Natural Sciences intertwine 🙂\n\n
+      Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science.\n\n\n      
+      Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
+      "
 
-        menu:
-          main:
-              # - name: Archive
-              #   url: archives
-              #   weight: 5
-              - name: "C0NT3NT"
-                url: tags/
-                weight: 5
-              - name: 🔍
-                url: search/
-                weight: 10       
-
-        homeInfoParams:
-          Title: "Welcome to **Carancho Nest**"
-          Content: "> Where the realms of Cybersecurity and Natural Sciences intertwine 🙂\n\n
-          Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science.\n\n\n      
-          Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
-          "
-
-    es:
-        languageName: "Español"
-        weight: 5
-
-        disabled: false
-        # languageDirection: ltr
-        taxonomies:
-          tag: es-tags
-
-        menu:
-            main:
-                - name: "C0NT3N1D0"
-                  url: es-tags/
-                  weight: 5
-                - name: 🔍
-                  url: search/
-                  weight: 10
-            
-        homeInfoParams:
-          title: "Bienvenidxs a **Carancho Nest**"
-          content: "> Dónde la Ciberseguridad y las Ciencias Naturales se encuentran 🙂\n\n
-          Embarcate en un viaje a través de las profundidades de este Nicho, en dónde ahondaremos en los captivos mundos de la Ciberseguridad, la Neurociencia, y las Ciencias Naturales.\n\n\n
-          Ya seas un en entusiasta de la tecnología, un amante de la naturaleza, o por simple curiosidad acerca del intrincado tapiz que une estos dominios, 
-          **Carancho Nest** es tu puerta para descubrir los secretos que hay en la intersección de la innovación de vanguardia y las maravillas del mundo natural
-          "
+  es:
+    weight: 2
+    languageName: Spanish
+    languageCode: es-AR
+    contentDir: content/es
+    
+    disabled: false
+    languageDirection: ltr
+    
+    homeInfoParams:
+      title: "Bienvenidxs a **Carancho Nest**"
+      content: "> Dónde la Ciberseguridad y las Ciencias Naturales se encuentran 🙂\n\n
+      Embarcate en un viaje a través de las profundidades de este Nicho, en dónde ahondaremos en los captivos mundos de la Ciberseguridad, la Neurociencia, y las Ciencias Naturales.\n\n\n
+      Ya seas un en entusiasta de la tecnología, un amante de la naturaleza, o por simple curiosidad acerca del intrincado tapiz que une estos dominios, 
+      **Carancho Nest** es tu puerta para descubrir los secretos que hay en la intersección de la innovación de vanguardia y las maravillas del mundo natural
+      "
+    menu:
+      main:
+        - identifier: tags
+          name: C0NT3N1D0
+          url: ""
+          weight: 10
 
 outputs:
     home:
@@ -82,11 +82,11 @@ params:
       env: production # to enable google analytics, opengraph, twitter-cards and schema.
 
       cover:
-            responsiveImages: true
+            responsiveImages: false
             linkFullImages: false
 
       socialIcons:
-        - name: Github Cnawel/c4r4nch0
+        - name: Github
           url: "https://github.com/cnawel"
         #- name: Youtube
         - name: Rss
@@ -95,72 +95,39 @@ params:
       ShowReadingTime: true
       ShowShareButtons: true
       ShowPostNavLinks: true
-      images: ["/img/post-bg-unix-linux.jpg"]
-
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
-
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
-
-    # assets:
-    #     disableHLJS: true
-    #     favicon: "<link / abs url>"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
-    #     safari_pinned_tab: "<link / abs url>"
-
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
-
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    #     keys: ["title", "permalink", "summary", "content"]
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        noClasses: false
-        # anchorLineNos: true
-        # codeFences: true
-        # guessSyntax: true
-        # lineNos: true
-        # style: monokai
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    style: monokai
+    tabWidth: 4
 
-privacy:
-    vimeo:
-        disabled: false
-        simple: true
+# menu:
+#   main:
+#     - identifier: tags
+#       name: C0NT3NT
+#       url: "/tags/"
+#       weight: 10
+    # - identifier: archives
+    #   name: Archives
+    #   url: /content/
+    #   weight: 30
 
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
-
-    instagram:
-        disabled: false
-        simple: true
-
-    youtube:
-        disabled: false
-        privacyEnhanced: true
-
-services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true
+  # module:
+  #   mounts: 
+  #     - source: content/en
+  #       target: content
+  #       lang: en
+  #     - source: content/es
+  #       target: content
+  #       lang: es
