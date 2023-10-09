@@ -61,6 +61,10 @@ outputs:
 params:
       env: production # to enable google analytics, opengraph, twitter-cards and schema.
       author: c4r4nch0
+      
+      ShowReadingTime: true
+      ShowShareButtons: true
+      ShowPostNavLinks: true
 
       defaultTheme: auto
       # disableThemeToggle: true
@@ -91,17 +95,15 @@ params:
 
             - Contact me if you have any proyects in your mind.
 
-    socialIcons:
-        - name: github
-          url: "https://github.com/Cnawel"
-        - name: "My web"
-          url: "https://cnawel.github.io/caranchonest/"
-        - name: Rss
-          url: "index.xml"
+        socialIcons:
+            - name: github
+              url: "https://github.com/Cnawel"
+            - name: "My web"
+              url: "https://cnawel.github.io/caranchonest/"
+            - name: Rss
+              url: "index.xml"
 
-      ShowReadingTime: true
-      ShowShareButtons: true
-      ShowPostNavLinks: true
+      
 
 markup:
     goldmark:
