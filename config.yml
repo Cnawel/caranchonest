@@ -1,5 +1,4 @@
 baseURL : "https://cnawel.github.io/caranchonest/"
-title: "Carancho Nest"
 paginate: 5
 theme: PaperMod
 
@@ -22,9 +21,7 @@ languages:
         languageName: "English"
         weight: 1
         taxonomies:
-        tag: tags
-        
-        title: "Carancho Nest"
+          tag: tags
         
         menu:
             main:
@@ -35,7 +32,9 @@ languages:
     es:
       weight: 2
       languageName: "Español"
-          
+       taxonomies:
+          tag: EStags
+
       homeInfoParams:
         Title: "Carancho Nest"
         Content: >
