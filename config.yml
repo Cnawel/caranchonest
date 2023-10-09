@@ -51,9 +51,8 @@ languages:
       taxonomies: 
         tag: EStags
       
-      homeInfoParams:
-        Title: "Bienvenidxs a Nido Carancho"     
-        Content: >
+      Content: > 
+              Bienvenidxs a Nido Carancho
             - Where the realms of Cybersecurity and Natural Sciences intertwine 🙂.
 
             - Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science.
@@ -67,7 +66,7 @@ languages:
               url: "https://cnawel.github.io/caranchonest/"
             - name: Rss
               url: "index.xml"
-              
+
         menu: 
           main: 
             - name: C0NT3N1D0
