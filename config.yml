@@ -24,11 +24,8 @@ languages:
         taxonomies:
         tag: tags
         
-        title: "Welcome to **Carancho Nest**"
-        content: "> Where the realms of Cybersecurity and Natural Sciences intertwine 🙂\n\n
-        Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science.\n\n\n      
-        Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
-        "
+        title: "Carancho Nest"
+        
         menu:
             main:
               - name: C0NT3NT
@@ -38,13 +35,21 @@ languages:
     es:
       weight: 2
       languageName: "Español"
-    
-      title: "Bienvenidxs a **Carancho Nest**"
-      content: "> Dónde la Ciberseguridad y las Ciencias Naturales se encuentran 🙂\n\n
-      Embarcate en un viaje a través de las profundidades de este Nicho, en dónde ahondaremos en los captivos mundos de la Ciberseguridad, la Neurociencia, y las Ciencias Naturales.\n\n\n
-      Ya seas un en entusiasta de la tecnología, un amante de la naturaleza, o por simple curiosidad acerca del intrincado tapiz que une estos dominios, 
-      **Carancho Nest** es tu puerta para descubrir los secretos que hay en la intersección de la innovación de vanguardia y las maravillas del mundo natural
-      "
+          
+      homeInfoParams:
+        Title: "Carancho Nest"
+        Content: >
+            - Where the realms of Cybersecurity and Natural Sciences intertwine 🙂
+            - Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science
+            - Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
+      
+        socialIcons:
+            - name: github
+              url: "https://github.com/Cnawel"
+            - name: "My web"
+              url: "https://cnawel.github.io/caranchonest/"
+            - name: Rss
+              url: "index.xml"
       menu:
         main:
           - identifier: tags
@@ -61,7 +66,7 @@ outputs:
 params:
       env: production # to enable google analytics, opengraph, twitter-cards and schema.
       author: c4r4nch0
-      
+
       ShowReadingTime: true
       ShowShareButtons: true
       ShowPostNavLinks: true
@@ -87,14 +92,10 @@ params:
       homeInfoParams:
         Title: "Carancho Nest"
         Content: >
-            Welcome to Carancho Nest
-
-            - **Carancho Nest** is where Nature Sciences and Cybersecurity intertwin.
-
-            - Do give a 🌟 on Github !
-
-            - Contact me if you have any proyects in your mind.
-
+            - Where the realms of Cybersecurity and Natural Sciences intertwine 🙂
+            - Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science
+            - Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
+      
         socialIcons:
             - name: github
               url: "https://github.com/Cnawel"
