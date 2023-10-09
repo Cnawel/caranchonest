@@ -1,5 +1,6 @@
 baseURL : "https://cnawel.github.io/caranchonest/"
 paginate: 5
+title: "Carancho Nest"
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -20,12 +21,12 @@ languages:
     en: 
         languageName: "English"
         weight: 1
-        title: "Carancho Nest"
         taxonomies: 
           tag: tags
         
-        content: >
-          Welcome to Carancho Nest
+        homeInfoParams:
+        Title: "Welcome to Carancho Nest"
+        Content: >         
 
           - Where the realms of Cybersecurity and Natural Sciences intertwine 🙂.
 
@@ -37,6 +38,10 @@ languages:
             main: 
               - name: C0NT3NT
                 url: tags/
+                weight: 5
+              - name: Buscar
+                url: search/
+                placeholder: "Search in the Nest"
                 weight: 10
 
     es: 
@@ -46,10 +51,9 @@ languages:
       taxonomies: 
         tag: EStags
       
-      params:         
+      homeInfoParams:
+        Title: "Bienvenidxs a Nido Carancho"     
         Content: >
-            Bienvenidxs a Nido Carancho.
-
             - Where the realms of Cybersecurity and Natural Sciences intertwine 🙂.
 
             - Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science.
@@ -63,12 +67,16 @@ languages:
               url: "https://cnawel.github.io/caranchonest/"
             - name: Rss
               url: "index.xml"
+              
         menu: 
           main: 
-            - identifier: tags
-              name: C0NT3N1D0
-              url: "EStags/"
+            - name: C0NT3N1D0
+              url: EStags
+              weight: 5
+            - name: Buscar
+              url: search/
               weight: 10
+              placeholder: "Buscar en el Nido"
 
 outputs: 
     home: 
