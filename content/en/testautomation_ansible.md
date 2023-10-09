@@ -11,8 +11,7 @@ ShowBreadCrumbs: false
      image: "/.ansible_auto.webp"
      alt: "Ansible Automation"
      caption: "Test Automation with Ansible"
-     relative: true # To use relative path for cover image, used in hugo Page-bundles    
----
+     relative: true # To use relative path for cover image, used in hugo Page-bundles    ---
 
 Welcome, fellow automation enthusiasts! 🤖 Today, we're diving deep into the world of Test Automation with Ansible. It's time to simplify, streamline, and supercharge your testing processes with the power of automation. 🚀
 
