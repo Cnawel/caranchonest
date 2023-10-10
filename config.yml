@@ -37,14 +37,15 @@ languages:
     es: 
       weight: 2
       languageName: "Español"
-      title: "Nido Carancho"
+      title: "Nido Carancho 🕵️‍♂️"
       taxonomies: 
         tag: EStags
       
       params:
         homeInfoParams: 
-            Title: "Nido Carancho"
+            Title: "Nido Carancho 🕵️‍♂️📚"
             Content: >
+
                 - Donde los dominios de la Ciberseguridad y las Ciencias Naturales se entrelazan 🙂
 
                 - Embárcate en un viaje a través de las profundidades de este nido, donde nos adentraremos en los cautivantes mundos de la Ciberseguridad, Neurociencia, y Ciencia de la Naturaleza.
@@ -102,7 +103,7 @@ params:
             linkFullImages: false
 
       homeInfoParams: 
-        Title: "Carancho Nest"
+        Title: "Carancho Nest 📚"
         Content: >
 
             - Where the realms of Cybersecurity and Natural Sciences intertwine 🙂
