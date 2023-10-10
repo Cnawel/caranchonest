@@ -8,10 +8,10 @@ tags: ["reversing", "infosec", "learning"]
 ShowToc: false
 ShowBreadCrumbs: false
 cover:
-    image: "<image path/url>"
+    image: "https://www.e-spincorp.com/wp-content/uploads/2019/02/Definition-and-Meaning-of-Reverse-Engineering.jpeg"
     # can also paste direct link from external site
     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-    alt: "<alt text>"
+    alt: "Reverse Engineer"
     caption: "<text>"
     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---

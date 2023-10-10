@@ -1,17 +1,18 @@
 ---
 title: "🌟 Unveiling DREAD: A Deep Dive into Risk Assessment 🌟"
+description: "In this comprehensive guide, we'll explore the DREAD risk assessment model in detail, highlighting its differences from other popular frameworks, and delving into how it can bolster the security of telecommunications, fintech, and services businesses. 🚀🔍"
 author: "c4r4nch0"
 date: "2023-06-14"
 draft: false
 searchHidden: false
 tags: ["threat modeling", "infosec", "learning"]
-ShowToc: false
-ShowBreadCrumbs: false
+ShowToc: True
+ShowBreadCrumbs: True
 cover:
-    image: "<image path/url>"
+    image: "https://www.eccouncil.org/wp-content/uploads/2023/03/DREAD-Methodology-02.png"
     # can also paste direct link from external site
     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-    alt: "<alt text>"
+    alt: "DREAD Framework"
     caption: "<text>"
     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---

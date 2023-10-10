@@ -8,10 +8,10 @@ tags: ["threat modeling", "infosec", "learning"]
 ShowToc: false
 ShowBreadCrumbs: false
 cover:
-    image: "<image path/url>"
+    image: "https://www.cspa.com.au/wp-content/uploads/2019/07/framework_button_5anniversary.png"
     # can also paste direct link from external site
     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-    alt: "<alt text>"
+    alt: "Assessing security solutions using the Cybersecurity Framework"
     caption: "<text>"
     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---
