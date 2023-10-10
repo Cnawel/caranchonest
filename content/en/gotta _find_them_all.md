@@ -6,8 +6,8 @@ draft: false
 searchHidden: false
 tags: ["development"]
 categories: ["infosec"]
-ShowToc: false
-ShowBreadCrumbs: false
+ShowToc: True
+ShowBreadCrumbs: True
 cover:
     image: "<image path/url>"
     # can also paste direct link from external site

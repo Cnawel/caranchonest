@@ -5,8 +5,8 @@ date: "2022-06-20"
 draft: false
 searchHidden: false
 tags: ["brain", "study", "lifehack"]
-ShowToc: false
-ShowBreadCrumbs: false
+ShowToc: True
+ShowBreadCrumbs: True
 # cover:
 #     image: "https://encrypted-tbn0.gstatic.com/images?
 #q=tbn:ANd9GcSQud1wlz3Fl6brRiyQMKkg8XMhI2BE9J7SazqbG4DBOcbkVorYi34k1Y6axGErJj0L9LU&#usqp=CAU"

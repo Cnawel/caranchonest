@@ -5,8 +5,8 @@ date: "2023-06-13"
 draft: false
 searchHidden: false
 tags: ["threat modeling", "infosec", "learning"]
-ShowToc: false
-ShowBreadCrumbs: false
+ShowToc: True
+ShowBreadCrumbs: True
 cover:
     image: "https://www.cspa.com.au/wp-content/uploads/2019/07/framework_button_5anniversary.png"
     thumbnail: "https://miro.medium.com/v2/resize:fit:1400/0*jKTM5IToxrDlvV_b"

@@ -5,8 +5,8 @@ date: "2022-05-07"
 draft: false
 searchHidden: false
 tags: ["nmap", "machete"]
-ShowToc: false
-ShowBreadCrumbs: false
+ShowToc: True
+ShowBreadCrumbs: True
 # cover:
 #     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQud1wlz3Fl6brRiyQMKkg8XMhI2BE9J7SazqbG4DBOcbkVorYi34k1Y6axGErJj0L9LU&usqp=CAU"
 #     # can also paste direct link from external site

@@ -5,8 +5,8 @@ date: "2023-06-14"
 draft: false
 searchHidden: false
 tags: ["threat modeling", "infosec", "learning"]
-ShowToc: false
-ShowBreadCrumbs: false
+ShowToc: True
+ShowBreadCrumbs: True
 cover:
     image: "<image path/url>"
     # can also paste direct link from external site

@@ -5,8 +5,8 @@ date: "2023-07-20"
 draft: false
 searchHidden: false
 EStags: ["libro", "estrategia", "ciberseguridad"]
-ShowToc: false
-ShowBreadCrumbs: false
+ShowToc: True
+ShowBreadCrumbs: True
 # cover:
 #     image: "https://example.com/images/hackers_playground.jpg"
 #     alt: "The Hacker's Playground"

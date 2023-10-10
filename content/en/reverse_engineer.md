@@ -5,8 +5,8 @@ date: "2022-03-05"
 draft: false
 searchHidden: false
 tags: ["reversing", "infosec", "learning"]
-ShowToc: false
-ShowBreadCrumbs: false
+ShowToc: True
+ShowBreadCrumbs: True
 cover:
     image: "https://www.e-spincorp.com/wp-content/uploads/2019/02/Definition-and-Meaning-of-Reverse-Engineering.jpeg"
     # can also paste direct link from external site

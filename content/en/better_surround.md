@@ -5,8 +5,8 @@ date: "2023-03-15"
 draft: false
 searchHidden: false
 tags: ["lifehack", "growth"]
-ShowToc: false
-ShowBreadCrumbs: false
+ShowToc: True
+ShowBreadCrumbs: True
 # cover:
 #     image: "https://example.com/images/sparkling_souls.jpg"
 #     alt: "Sparkling Souls"
