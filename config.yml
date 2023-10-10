@@ -19,39 +19,39 @@ minify:
 
 languages: 
     en: 
-        languageName: "English"
-        weight: 1
-        taxonomies: 
-          tag: tags
-        title: "Carancho Nest"
+      weight: 1
+      languageName: "English"
+      taxonomies: 
+        tag: tags
+      title: "Carancho Nest"
 
-        params:
-          homeInfoParams: 
-            Title: "Carancho Nest"
-            Content: >
+      params:
+        homeInfoParams: 
+          Title: "Carancho Nest"
+          Content: >
 
-                - Where the realms of Cybersecurity and Natural Sciences intertwine 🙂
-            
-                - Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science
-            
-                - Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
+              - Where the realms of Cybersecurity and Natural Sciences intertwine 🙂
+          
+              - Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science
+          
+              - Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
 
-            socialIcons: 
-                - name: github
-                  url: "https://github.com/Cnawel"
-                - name: "My web"
-                  url: "https://cnawel.github.io/caranchonest/"
-                - name: Rss
-                  url: "index.xml"
-        menu: 
-            main: 
-              - name: C0NT3NT
-                url: tags/
-                weight: 5
-              - name: Search
-                url: search/
-                placeholder: "Search in the Nest"
-                weight: 10
+          socialIcons: 
+              - name: github
+                url: "https://github.com/Cnawel"
+              - name: "My web"
+                url: "https://cnawel.github.io/caranchonest/"
+              - name: Rss
+                url: "index.xml"
+      menu: 
+          main: 
+            - name: C0NT3NT
+              url: tags/
+              weight: 5
+            - name: Search
+              url: search/
+              placeholder: "Search in the Nest"
+              weight: 10
 
     es: 
       weight: 2
