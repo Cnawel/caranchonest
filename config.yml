@@ -45,17 +45,19 @@ languages:
         homeInfoParams: 
             Title: "Nido Carancho"
             Content: >
-                - Where the realms of Cybersecurity and Natural Sciences intertwine 🙂
-                - Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science
-                - Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
+                - Donde los dominios de la Ciberseguridad y las Ciencias Naturales se entrelazan 🙂
 
-            socialIcons: 
-                - name: github
-                  url: "https://github.com/Cnawel"
-                - name: "My web"
-                  url: "https://cnawel.github.io/caranchonest/"
-                - name: Rss
-                  url: "index.xml"
+                - Embárcate en un viaje a través de las profundidades de este nido, donde nos adentraremos en los cautivantes mundos de la Ciberseguridad, Neurociencia, y Ciencia de la Naturaleza.
+
+                - Ya seas un entusiasta de la tecnología, un amante de la naturaleza, o simplemente curioso acerca del intrincado tapiz que vincula estos dominios, **Nido Carancho** es tu portal para desbloquear los secretos que yacen en la intersección de la innovación de vanguardia y las maravillas del mundo natural.
+
+        socialIcons: 
+            - name: github
+              url: "https://github.com/Cnawel"
+            - name: "My web"
+              url: "https://cnawel.github.io/caranchonest/"
+            - name: Rss
+              url: "index.xml"
 
       menu: 
         main: 
