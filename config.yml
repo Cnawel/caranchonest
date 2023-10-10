@@ -23,7 +23,7 @@ languages:
         weight: 1
         taxonomies: 
           tag: tags
-          
+
         menu: 
             main: 
               - name: C0NT3NT
@@ -41,20 +41,21 @@ languages:
       taxonomies: 
         tag: EStags
       
-      homeInfoParams: 
-          Title: "Nido Carancho"
-          Content: >
-              - Where the realms of Cybersecurity and Natural Sciences intertwine 🙂
-              - Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science
-              - Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
+      params:
+        homeInfoParams: 
+            Title: "Nido Carancho"
+            Content: >
+                - Where the realms of Cybersecurity and Natural Sciences intertwine 🙂
+                - Embark on a journey through the depths of this nest, where we delve into the captivating worlds of Cybersecurity, Neuroscience, and Nature Science
+                - Whether you're a technology enthusiast, a nature lover, or simply curious about the intricate tapestry that links these domains, **Nido Carancho** is your gateway to unlocking the secrets that lie at the intersection of cutting-edge innovation and the wonders of the natural world
 
-          socialIcons: 
-              - name: github
-                url: "https://github.com/Cnawel"
-              - name: "My web"
-                url: "https://cnawel.github.io/caranchonest/"
-              - name: Rss
-                url: "index.xml"
+            socialIcons: 
+                - name: github
+                  url: "https://github.com/Cnawel"
+                - name: "My web"
+                  url: "https://cnawel.github.io/caranchonest/"
+                - name: Rss
+                  url: "index.xml"
 
       menu: 
         main: 
