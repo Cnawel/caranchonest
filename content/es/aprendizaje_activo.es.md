@@ -1,7 +1,7 @@
 ---
 weight: 5
 date: "2022-06-20"
-title: "📚🔍 Aprendizaje Activo y Otras Técnicas de Estudio Útiles 🧠💡"
+title: "📚Aprendizaje Activo y Otras Técnicas de Estudio Útiles🧠"
 author: "c4r4nch0"
 description: "En esta aventura, exploraremos el aprendizaje activo, el aprendizaje mixto, la interrogación elaborativa, la auto-explicación, la práctica entrelazada y la reflexión—técnicas de estudio específicamente diseñadas para ayudarte a prosperar como entusiasta de la ciberseguridad"
 tags: ["cerebro", "estudio", "lifehack", "Español"]
