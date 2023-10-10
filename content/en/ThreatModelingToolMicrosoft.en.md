@@ -9,7 +9,7 @@ ShowToc: false
 ShowBreadCrumbs: false
 cover:
     image: "https://www.cspa.com.au/wp-content/uploads/2019/07/framework_button_5anniversary.png"
-    # can also paste direct link from external site
+    thumbnail: "https://miro.medium.com/v2/resize:fit:1400/0*jKTM5IToxrDlvV_b"
     # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
     alt: "Assessing security solutions using the Cybersecurity Framework"
     caption: "<text>"
