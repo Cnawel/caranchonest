@@ -1,6 +1,8 @@
 ---
+layout: post
 title: "🌟 Unveiling DREAD: A Deep Dive into Risk Assessment 🌟"
 description: "In this comprehensive guide, we'll explore the DREAD risk assessment model in detail, highlighting its differences from other popular frameworks, and delving into how it can bolster the security of telecommunications, fintech, and services businesses. 🚀🔍"
+
 author: "c4r4nch0"
 date: "2023-06-14"
 draft: false
@@ -17,9 +19,7 @@ cover:
     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 ---
 
-# 🌟 Unveiling DREAD: A Deep Dive into Risk Assessment 🌟
-
-Welcome to a technical odyssey into the world of risk assessment with DREAD. In this comprehensive guide, we'll explore the DREAD risk assessment model in detail, highlighting its differences from other popular frameworks, and delving into how it can bolster the security of telecommunications, fintech, and services businesses. 🚀🔍
+In this comprehensive guide, we'll explore the DREAD risk assessment model in detail, highlighting its differences from other popular frameworks, and delving into how it can bolster the security of telecommunications, fintech, and services businesses. 🚀🔍
 
 ## Deciphering DREAD: What Sets It Apart? 🛡️
 
