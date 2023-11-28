@@ -82,7 +82,7 @@ languages:
       menu: 
         main: 
           - name: C0NT3N1D0
-            url: tags
+            url: tags/
             weight: 5
           - name: Buscar
             url: search/
