@@ -1,12 +1,16 @@
 ---
+draft: false
+searchHidden: false
+ShowToc: True
+ShowBreadCrumbs: True
+
 title: "Circularity of Souls ✨"
 author: "c4r4nch0"
 date: "2023-11-10"
-draft: false
-searchHidden: false
+description: "The Circularity Framework is a comprehensive initiative aimed at fostering a holistic societal development model centered around six interconnected pillars"
+
 EStags: ["estrategia", "ciberseguridad", "green"]
-ShowToc: True
-ShowBreadCrumbs: True
+
 # cover:
 #     image: "https://example.com/images/hackers_playground.jpg"
 #     alt: "The Hacker's Playground"
