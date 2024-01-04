@@ -16,7 +16,7 @@ ShowBreadCrumbs: True
 #     caption: "Bug Bounty Bootcamp"
 #     relative: false # To use relative path for cover image, used in hugo Page-bundles    
 # Advanced LINUX Command Lines and System Optimization 🚀
-
+---
 ## Introduction
 
 In the realm of advanced Linux command-line operations, mastery extends beyond basic file manipulation and system information retrieval. This guide delves into sophisticated commands, system optimization techniques, and advanced networking tools, fostering a deeper understanding of Linux system administration.
